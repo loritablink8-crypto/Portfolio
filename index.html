@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lorita/portfolio</title>
+    <title>Your Name | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <!-- Navbar -->
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="nav-container">
             <h1 class="logo">Lorita</h1>
-
-            <!--desktop menu-->
+            
+            <!-- Desktop Menu -->
             <ul class="nav-links desktop-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -22,108 +22,111 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
-            <!--mobil hamburger-->
+            <!-- Mobile Hamburger -->
             <button class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
 
-            <!--Mobile menu-->
-             <ul class="nav-links mobile-menu" id="mobilemenu">
+            <!-- Mobile Menu -->
+            <ul class="nav-links mobile-menu" id="mobileMenu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="theme-toggle" id="theme-toggle">
+
+            <button class="theme-toggle" id="themeToggle">
                 <i class="fas fa-moon"></i>
             </button>
         </div>
     </nav>
 
-    <!-- hero section -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h2>Hello, i'm<span class="highlight">Ngeleh Lorita</span></h2>
-            <h1>A<span id="typed"></span></h1>
-            <p>Building beautiful digital experiences from Bamenda, Cameroon</p>
+            <h2>Hello, I'm <span class="highlight">Lorita</span></h2>
+            <h1>A <span id="typed"></span></h1>
+            <p>Passionate web developer & designer based in Bamenda, Cameroon 🇨🇲</p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn-primary">View my work</a>
-                <a href="#contact" class="btn btn-secondary">Get in touch</a>
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
             </div>
             <div class="social-links">
-                <a href="https:// github.com/loritablink8-crypto" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/loritablink8-crypto/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/loritablink8" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/loritablink8-crypto" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://facebook.com/LoritaBl" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@loritablink8" target="_blank"><i class="fab fa-tiktok"></i></a>
             </div>
         </div>
         <div class="hero-image">
-            <img src="assets/profile.jpg" alt="my profile photo">
+            <img src="assets/profile.jpg" alt="Lorita Profile Photo">
         </div>
     </section>
 
-    <!--about section-->
+    <!-- About Section -->
     <section id="about" class="section">
         <h2>About Me</h2>
-        <div class="About-content">
+        <div class="about-content">
             <div class="about-text">
-                <p>I'm a passionate web developer and desiner based in Bamenda. I love creating clean, and user-freindly websites that solve real problems. </p>
-                <p>With skills in both frontend and backend developement, i focus on delivering high-quality digital expiriences</p>
+                <p>I'm a passionate web developer and designer based in Bamenda. I love creating clean, responsive, and user-friendly websites that solve real problems.</p>
+                <p>With skills in both frontend and backend development, I focus on delivering high-quality digital experiences.</p>
             </div>
         </div>
     </section>
 
-    <!--skill section-->
-    <section id="skill" class="section">
+    <!-- Skills Section -->
+    <section id="skills" class="section">
         <h2>Skills & Technologies</h2>
         <div class="skills-grid">
             <div class="skill-card">HTML5</div>
-            <div class="skill-card">css3 / Tailwind</div>
+            <div class="skill-card">CSS3 / Tailwind</div>
             <div class="skill-card">JavaScript</div>
             <div class="skill-card">React</div>
             <div class="skill-card">Node.js</div>
             <div class="skill-card">Python</div>
-            <div class="skill-card">Git & Github</div>
+            <div class="skill-card">Git & GitHub</div>
             <div class="skill-card">Figma</div>
         </div>
     </section>
 
-    <!--project section-->
+    <!-- Projects Section -->
     <section id="projects" class="section">
         <h2>Featured Projects</h2>
-        <div class="project-grid">
-            <!--Project 1-->
+        <div class="projects-grid">
+            <!-- Project 1 -->
             <div class="project-card">
-                <img src="assets/project1.jpg" alt="project 1">
+                <img src="assets/project1.jpg" alt="Project 1">
                 <div class="project-info">
-                    <h3>E-commerce website</h3>
-                    <p>Morder online stor built with React and Node.js. Features shoping cart, payment intergration, and responsive design</p>
+                    <h3>E-commerce Website</h3>
+                    <p>Modern online store built with React and Node.js. Features shopping cart, payment integration, and responsive design.</p>
                     <div class="project-links">
-                        <a href="" target="_blank">live demo</a>
-                        <a href="" target="_blank">Github</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--project2-->
-        <div class="project-card">
-                <img src="assets/project2.jpg" alt="project 2">
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="assets/project2.jpg" alt="Project 2">
                 <div class="project-info">
                     <h3>Portfolio Dashboard</h3>
-                    <p>interactive admin dashboard with data visualisation using chart.js and Tailwind css.</p>
+                    <p>Interactive admin dashboard with data visualization using Chart.js and Tailwind CSS.</p>
                     <div class="project-links">
-                        <a href="" target="_blank">live demo</a>
-                        <a href="" target="_blank">Github</a>
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
+            
+            <!-- Add more projects here if you want -->
         </div>
     </section>
 
-    <!--contact section-->
+    <!-- Contact Section -->
     <section id="contact" class="section">
         <h2>Get In Touch</h2>
         <form id="contactForm" class="contact-form">
@@ -134,12 +137,12 @@
         </form>
     </section>
 
-    <!--footer-->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Ngeleh Lorita.All rights reserved. Bamenda, Cameroon</p>
+        <p>&copy; 2026 Ngeleh Lorita. All rights reserved. | Bamenda, Cameroon</p>
     </footer>
 
-    <!--link to javascript file-->
+    <!-- Link to JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>
